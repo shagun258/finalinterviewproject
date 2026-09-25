@@ -1,138 +1,90 @@
+<!-- ========================= HEADER ========================= -->
+
+<div align="center">
+
 # 🎯 Interview Performance Analyzer
 
-An AI-powered web application designed to help students and job seekers practice interviews, analyze their responses, and improve their interview performance through AI-based feedback.
+### AI-Powered Interview Practice & Performance Analysis Platform
+
+<p>
+  <strong>Practice • Analyze • Improve • Get Interview Ready</strong>
+</p>
+
+<p>
+  <a href="YOUR_LIVE_DEMO_URL">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20App-success?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/shagun258/finalinterviewproject">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/github/stars/shagun258/finalinterviewproject?style=flat-square" />
+  <img src="https://img.shields.io/github/forks/shagun258/finalinterviewproject?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/shagun258/finalinterviewproject?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/top/shagun258/finalinterviewproject?style=flat-square" />
+</p>
+
+</div>
 
 ---
 
-## 📌 Overview
+<!-- ========================= BANNER ========================= -->
 
-The **Interview Performance Analyzer** is an interactive interview preparation platform that simulates technical interviews and analyzes a candidate's responses.
+<div align="center">
 
-The application allows users to:
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=220&section=header&text=Interview%20Performance%20Analyzer&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Interview%20Preparation%20Platform&descAlignY=60&descSize=18"
+/>
 
-- Select an interview domain
-- Choose interview difficulty
-- Answer questions using voice
-- Convert speech into text
-- Analyze responses using NLP
-- Detect filler words and speaking patterns
-- Calculate a confidence score
-- Receive AI-powered feedback
-- Track interview performance
-
-The goal is to provide a practical environment where users can practice interviews and identify areas for improvement before attending real interviews.
+</div>
 
 ---
 
-## ✨ Key Features
+## 📌 About The Project
 
-### 🎤 Voice-Based Interview
-Users can answer interview questions using their microphone instead of typing their responses.
+**Interview Performance Analyzer** is an AI-powered interview preparation platform designed to help students and job seekers practice interviews in an interactive environment.
 
-### 🤖 AI-Powered Question Generation
-Interview questions can be generated according to the selected domain and difficulty level.
+Instead of simply providing interview questions, the system allows users to **answer questions using their voice**, converts speech into text, analyzes the response, detects filler words and speaking patterns, and provides AI-assisted feedback.
 
-### 🧠 Answer Analysis
-The application analyzes the candidate's response and provides meaningful feedback.
-
-### 📊 Confidence Analysis
-A confidence score is calculated using factors such as:
-
-- Response quality
-- Speaking patterns
-- Filler words
-- Answer length
-- Response structure
-
-### 🗣️ Speech Recognition
-Voice responses are converted into text for further analysis.
-
-### 🔍 Filler Word Detection
-The system identifies commonly used filler words and helps users become more aware of their speaking habits.
-
-### 📈 Performance Feedback
-Users receive feedback that can help them understand their strengths and areas that require improvement.
+The objective is to help candidates identify weaknesses, improve communication, and become more confident before appearing in real interviews.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Why This Project?
 
-### Frontend
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- Vite
+Traditional interview preparation usually depends on:
 
-### AI / NLP
-- Generative AI
-- Natural Language Processing
-- Speech Recognition
-- AI-based response analysis
+- 📚 Reading interview questions
+- 📝 Writing answers
+- 👥 Practicing with friends
+- 🎥 Watching interview videos
 
-### Development Tools
-- Git
-- GitHub
-- VS Code
-- npm
-
----
-
-## 🏗️ System Architecture
+This project introduces an interactive AI-based approach:
 
 ```text
-                    ┌─────────────────────┐
-                    │        User         │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │  Interview Setup    │
-                    │ Domain + Difficulty │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ AI Question         │
-                    │ Generation           │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Interview Question  │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Voice Response      │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Speech-to-Text      │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-             ┌─────────────────┴─────────────────┐
-             │                                   │
-             ▼                                   ▼
-    ┌─────────────────┐                 ┌─────────────────┐
-    │ NLP Analysis    │                 │ Speech Analysis │
-    │                 │                 │                 │
-    │ Answer Quality  │                 │ Filler Words    │
-    │ Relevance       │                 │ Speaking Data   │
-    └────────┬────────┘                 └────────┬────────┘
-             │                                   │
-             └─────────────────┬─────────────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Performance &       │
-                    │ Confidence Score    │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ AI Feedback &       │
-                    │ Recommendations     │
-                    └─────────────────────┘
+             Traditional Preparation
+                      ↓
+              Read Questions
+                      ↓
+               Prepare Answers
+                      ↓
+              Attend Interview
+
+
+             Interview Performance Analyzer
+                      ↓
+             Select Interview Type
+                      ↓
+              AI Generated Questions
+                      ↓
+                Voice Response
+                      ↓
+                Speech-to-Text
+                      ↓
+              AI / NLP Analysis
+                      ↓
+             Performance Feedback
+                      ↓
+              Improve & Practice
